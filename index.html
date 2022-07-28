@@ -30,10 +30,7 @@
 
             <div id="poid">
                 <h2>Poid</h2>
-                <div class="inputgroup">
-                    <span>kg</span>
-                    <input type="number" value="75">
-                </div>
+                <input type="number" value="75">
             </div>
         </div>
 
@@ -43,6 +40,7 @@
         </div>
 
         <div id="permis">
+            <h2>Permis</h2>
             <div>
                 <input type="radio" name="permis" id="typePermis" onclick="decocherRadio(this)">
                 <label for="permis">Permis probatoire</label>
@@ -50,12 +48,15 @@
         </div>
 
         <div id="resultat">
-            <p id="taux">Votre taux d'Alcoolémie est de 0.31 gramme par litre de sang</p>
+            <p id="taux">Votre taux d'Alcoolémie est de <b>0.31</b> gramme par litre de sang</p>
             <p id="boolean">Vous pouvez prendre le volant !</p>
-            <p>Soyez prudent et respectez la vitesse autorisée.</p>
-            <p id="indication">
-                Attention : ces informations ne sont données qu'à titre indicatif. Elles n'ont aucune valeur juridique !
-            </p>
+            <div id="indications">
+                <p>Soyez prudent et respectez la vitesse autorisée.</p>
+                <p>
+                    Attention : ces informations ne sont données qu'à titre indicatif. Elles n'ont aucune valeur
+                    juridique !
+                </p>
+            </div>
         </div>
 
     </div>

@@ -37,7 +37,7 @@ body {
     background: var(--cardBG);
 
     width: 500px;
-    height: 700px;
+    height: 500px;
 
     padding: 20px;
 
@@ -46,12 +46,13 @@ body {
     justify-content: center;
     align-items: center;
 
+    border-radius: 10px;
 }
 
 #card>div {
     width: 100%;
 
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 #nbVerres input,
@@ -61,11 +62,24 @@ body {
 
 #side {
     display: flex;
+    justify-content: space-between;
 }
 
 #side>div {
-    width: 50%;
+    width: 40%;
 }
+
+input[type="number"],
+select {
+    height: 30px;
+    width: 100%;
+    
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+
 
 h1,
 h2,
@@ -74,10 +88,33 @@ label {
     color: white;
 }
 
-span {
+h1 {
+    margin-bottom: 25px;
+}
+
+#resultat {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+#resultat p {
+    margin-bottom: 5px;
+}
+
+b {
+    font-weight: 400;
     color: var(--cyan);
 }
 
-h1 {
-    margin-bottom: 30px;
+#indications {
+    margin-top: 15px;
+    padding: 5px;
+
+    border-radius: 5px;
+
+    background: var(--soft-blue);
+}
+
+#indications p {
+    color: var(--line);
 }
