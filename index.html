@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+
+    <Title>Calculer sont taux d'alcoolémie</Title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/logo-32x32.png">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="card">
+        <h1>Calcul de l'alcoolémie</h1>
+
+        <div id="nbVerres">
+            <h2>Nombre de verres standard</h2>
+            <input type="number" value="2">
+        </div>
+
+        <div id="side">
+            <div id="sexe">
+                <h2>Sexe</h2>
+                <select name="sexe">
+                    <option value="0.7" selected>Homme</option>
+                    <option value="0.5">Femme</option>
+                </select>
+            </div>
+
+            <div id="poid">
+                <h2>Poid</h2>
+                <div class="inputgroup">
+                    <span>kg</span>
+                    <input type="number" value="75">
+                </div>
+            </div>
+        </div>
+
+        <div id="temps">
+            <h2>Nombre d'heures depuis le dernier verre</h2>
+            <input type="number" value="1">
+        </div>
+
+        <div id="permis">
+            <div>
+                <input type="radio" name="permis" id="typePermis" onclick="decocherRadio(this)">
+                <label for="permis">Permis probatoire</label>
+            </div>
+        </div>
+
+        <div id="resultat">
+            <p id="taux">Votre taux d'Alcoolémie est de 0.31 gramme par litre de sang</p>
+            <p id="boolean">Vous pouvez prendre le volant !</p>
+            <p>Soyez prudent et respectez la vitesse autorisée.</p>
+            <p id="indication">
+                Attention : ces informations ne sont données qu'à titre indicatif. Elles n'ont aucune valeur juridique !
+            </p>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

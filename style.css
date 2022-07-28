@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+    /* Primary */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral */
+    --mainBG: hsl(217, 54%, 11%);
+    --cardBG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+
+*,
+::before,
+::after {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    background: var(--mainBG);
+
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+    background: var(--cardBG);
+
+    width: 500px;
+    height: 700px;
+
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#card>div {
+    width: 100%;
+
+    margin-bottom: 30px;
+}
+
+#nbVerres input,
+#temps input {
+    width: 100%;
+}
+
+#side {
+    display: flex;
+}
+
+#side>div {
+    width: 50%;
+}
+
+h1,
+h2,
+p,
+label {
+    color: white;
+}
+
+span {
+    color: var(--cyan);
+}
+
+h1 {
+    margin-bottom: 30px;
+}
