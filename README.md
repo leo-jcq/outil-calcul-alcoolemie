@@ -40,7 +40,7 @@ Vous pouvez prévisualiser le site [ici](https://leo-jcq.github.io/outil-calcul-
 
 # Tool for calculating blood alcohol content
 
-## Table des matières
+## Table of contents
 
 - [How to use it](#how-to-use-it)
   - [Entering the information](#entering-the-information)
