@@ -122,3 +122,24 @@ b {
 #indications p {
     color: var(--line);
 }
+
+@media (max-width:550px) {
+
+    #card {
+        width: 350px;
+        height: 450px;
+
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+
+    h2,
+    p,
+    label {
+        font-size: 0.9rem;
+    }
+}
